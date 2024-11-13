@@ -1,0 +1,126 @@
+body {
+    background: linear-gradient(to right, #4d7841, #c5d7a0, #6f9c60);
+    /* Gradiente de verde a blanco */
+
+    /* Asegura que el texto sea visible */
+    margin: 0;
+
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    /* Fuente elegante */
+    font-size: 3rem;
+    /* Tamaño grande para destacar el título */
+    color: #28a745;
+    /* Color verde */
+    text-align: center;
+    /* Centra el texto */
+    text-shadow: 2px 2px 4px black;
+    /* Sombra para darle un efecto de profundidad */
+    margin: 20px 0;
+    /* Margen superior e inferior */
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    /* Fuente legible y moderna */
+    font-size: 1.2rem;
+    /* Tamaño de fuente adecuado para lectura */
+    color: #333;
+    /* Color gris oscuro, fácil de leer */
+    line-height: 1.6;
+    /* Espaciado entre líneas para mayor legibilidad */
+    margin: 10px 0;
+    /* Espacio entre párrafos */
+    text-align: justify;
+    /* Justifica el texto */
+    padding: 0 15px;
+    /* Padding para dar un poco de espacio alrededor del texto */
+}
+
+
+#map {
+    width: auto;
+    height: 400px;
+    border: 2px solid grey;
+    border-radius: 25px;
+    margin: 20px;
+
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.texto {
+    background-color: #fbffe6;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.logo {
+    background-color: #fbffe6cb;
+    width: 200px;
+    height: auto;
+    margin: 80px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 20px;
+
+}
+
+.modelos {
+
+    border: 2px solid green;
+    border-radius: 25px;
+    margin: 10px;
+
+}
+
+.imagenes {
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+
+
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 200px;
+    /*  */
+
+
+}
+
+.msj {
+    background-color: #fbffe6;
+    text-align: justify;
+    /* Justifica el texto */
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    width: 180px;
+    height: auto;
+
+
+    /* Vamos a editar el texto */
+
+    font-family: 'Georgia', 'Times New Roman', serif;
+    /* Cambia la tipografía */
+    font-size: 1rem;
+    /* Tamaño de la fuente */
+    color: #333;
+    /* Color del texto */
+    line-height: 1.5;
+    /* Espaciado entre líneas */
+
+}
